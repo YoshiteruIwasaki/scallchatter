@@ -1,0 +1,14 @@
+application: scallchatter
+version: 1
+runtime: php
+api_version: 1
+
+handlers:
+- url: /
+  script: index.php
+
+- url: /twitter
+  script: twitter.php
+
+- url: /parse
+  script: parse.php
