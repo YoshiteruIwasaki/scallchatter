@@ -6,7 +6,7 @@
  * アプリケーションIDの登録URLは、こちらです↓
  * http://e.developer.yahoo.co.jp/webservices/register_application
  */
-$appid = 'dj0zaiZpPVc3TTRVbTdzeHhGaCZkPVlXazlWMjgzT1dobE56Z21jR285TUEtLSZzPWNvbnN1bWVyc2VjcmV0Jng9OWM-'; // <-- ここにあなたのアプリケーションIDを設定してください。
+$appid = ''; // <-- ここにあなたのアプリケーションIDを設定してください。
 $concat_count_max = 10; //区切る文節数
 
 function escapestring($str) {
